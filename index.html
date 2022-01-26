@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Invoice generator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+               <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+               <link rel="stylesheet" href="style.css">
+</head>
+<body>
+               <table class="body-wrap" id="invoice_window">
+                              <tbody><tr>
+                                  <td></td>
+                                  <td class="container" width="600">
+                                      <div class="content">
+                                          <table class="main" width="100%" cellpadding="0" cellspacing="0">
+                                              <tbody><tr>
+                                                  <td class="content-wrap aligncenter">
+                                                      <table width="100%" cellpadding="0" cellspacing="0">
+                                                          <tbody><tr>
+                                                            <td class="title">
+                                                                <h2>Coding Zone</h2>
+                                                            </td>
+                                                        </tr>
+                                                                         <tr>
+                                                              <td class="content-block">
+                                                                  <h2 class="thank">Thanks for using our service</h2>
+                                                              </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td class="content-block">
+                                                                  <table class="invoice">
+                                                                      <tbody><tr>
+                                                                          <td><b class="name">Rohan Kalame</b><br>Invoice #12345<br>27 January 2022</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                          <td>
+                                                                              <table class="invoice-items" cellpadding="0" cellspacing="0">
+                                                                                  <tbody><tr>
+                                                                                      <td>Product 1</td>
+                                                                                      <td class="alignright">₹ 20.00</td>
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                          <td>Product 2</td>
+                                                                                          <td class="alignright">₹ 20.00</td>
+                                                                                      </tr>
+                                                                                      <tr>
+                                                                                          <td>Product 3</td>
+                                                                                          <td class="alignright">₹ 20.00</td>
+                                                                                      </tr>
+                                                                                  <tr>
+                                                                                      <td>Product 4</td>
+                                                                                      <td class="alignright">₹ 10.00</td>
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                      <td>Product 5</td>
+                                                                                      <td class="alignright">₹ 6.00</td>
+                                                                                  </tr>
+                                                                                  <tr class="total">
+                                                                                      <td class="alignright" width="80%">Total</td>
+                                                                                      <td class="alignright">₹ 76.00</td>
+                                                                                  </tr>
+                                                                                  
+                                                                              </tbody></table>
+                                                                          </td>
+                                                                      </tr>
+                                                                  </tbody></table>
+                                                              </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td class="content-block">
+                                                                  <button class="btn" id="Download">Invoice Generator</button>
+                                                              </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td class="content-block">
+                                                                  Company Inc. codingzone, Bhilai 490020
+                                                              </td>
+                                                          </tr>
+                                                      </tbody></table>
+                                                  </td>
+                                              </tr>
+                                          </tbody></table>
+                              
+                          </tbody></table>
+<script src="script.js"></script>
+</body>
+</html>
